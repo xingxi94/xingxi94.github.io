@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xingxi的博客</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content from xingxi的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+    <managingEditor>y2912060019@gmail.com (xingxi)</managingEditor>
+    <webMaster>y2912060019@gmail.com (xingxi)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/post/hello/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <author>y2912060019@gmail.com (xingxi)</author>
+      <guid>http://localhost:1313/post/hello/</guid>
+      <description>
+        <![CDATA[<h1>Hello World</h1><p>作者：xingxi（y2912060019@gmail.com）</p>
+        
+          
+        
+        <hr><p>本文2023-03-15首发于<a href='http://localhost:1313/'>xingxi的博客</a>，最后修改于2023-03-15</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>
