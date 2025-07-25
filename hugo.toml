@@ -1,9 +1,9 @@
 baseURL = 'https://xingxi94.top/'
 title = 'xingxi的博客'
-theme = "reimu"
-languageCode = 'zh-CN'
+theme = "github.com/D-Sketon/hugo-theme-reimu"
+
 defaultContentLanguage = 'zh-CN'
-[languages]
+
 [languages.zh-CN]
 languageName = '简体中文'
 weight = 1
