@@ -21,6 +21,19 @@
     <loc>https://xingxi94.top/archives/</loc>
     <lastmod>2022-07-26T21:46:25+08:00</lastmod>
   </url><url>
+    <loc>https://xingxi94.top/en/</loc>
+    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://xingxi94.top/en/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://xingxi94.top/en/"
+                />
+  </url><url>
     <loc>https://xingxi94.top/post/</loc>
     <lastmod>2022-07-26T21:46:25+08:00</lastmod>
   </url><url>
