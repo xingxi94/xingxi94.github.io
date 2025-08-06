@@ -17,7 +17,19 @@
     {{- if .Site.Params.injector.head_end -}}
       {{- .Site.Params.injector.head_end | safeHTML -}}
     {{- end -}}
+    <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QR10K86YK"></script>
+   <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+
+   gtag('config', 'G-6QR10K86YK');
+   </script>
+   <!-- Waline CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
   </head>
+   
   <body>
     {{- if .Site.Params.injector.body_begin -}}
       {{- .Site.Params.injector.body_begin | safeHTML -}}
@@ -86,5 +98,15 @@
     {{- if .Site.Params.injector.body_end -}}
       {{- .Site.Params.injector.body_end | safeHTML -}}
     {{- end -}}
+    <!-- ... -->
+   <div id="waline"></div>
+   <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL:https://example.xingxi94.top/ 'https://your-domain.vercel.app',
+    });
+   </script>
   </body>
 </html>
