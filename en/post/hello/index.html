@@ -42,7 +42,7 @@
     property="og:description"
     content="少女祈祷中..."
   />
-  <meta property="og:url" content="https://xingxi94.top/en/en/posts/hello/" />
+  <meta property="og:url" content="https://xingxi94.top/en/post/hello/" />
   <meta
     property="og:site_name"
     content="Xingxi&#39;s Blog"
@@ -148,7 +148,7 @@ This article does not have a corresponding language version
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['zh-cn'] = '\/post\/hello\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");
@@ -182,11 +182,33 @@ This article does not have a corresponding language version
   </div>
 </header><div id="content"
           
-          class="sidebar-right"  ><aside id="sidebar"><div class="sidebar-wrapper ">
+          class="sidebar-right"  ><aside id="sidebar"><div class="sidebar-wrapper wrap-sticky">
     <div
       class="sidebar-wrap"
       data-aos="fade-up"
-    ><div class="sidebar-author">
+    ><div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">Contents</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#1-getting-acquainted">1. Getting Acquainted</a></li>
+    <li><a href="#2-through-the-thickets">2. Through the Thickets</a></li>
+    <li><a href="#3-riding-the-flow">3. Riding the Flow</a></li>
+    <li><a href="#4-review-and-reflection">4. Review and Reflection</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div></div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img
     data-src="/avatar/avatar.png"
     data-sizes="auto"
@@ -198,7 +220,7 @@ This article does not have a corresponding language version
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>Posts</div><div class="sidebar-state-number">0</div>
+    <div>Posts</div><div class="sidebar-state-number">1</div>
   </div>
   <a class="sidebar-state-category" href="/en/categories/" aria-label="sidebar-state-category-link">
     <div>Categories</div>
@@ -245,20 +267,13 @@ This article does not have a corresponding language version
       <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
       <div class="sidebar-menu-link">Friend</div>
     </div></div>
-</div>
+</div><div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div></div>
   </div>
 
-  <div class="sidebar-widget"><div class="widget-wrapper">
-    <div
-      class="widget-wrap"
-      data-aos="fade-up"
-    >
-      <h3 class="widget-title">Recent Posts</h3>
-      <div class="widget">
-        <ul></ul>
-      </div>
-    </div>
-  </div></div></aside>
+  <div class="sidebar-widget"></div></aside>
 <section id="main"><article
   class="h-entry article"
   itemprop="blogPost"
@@ -333,10 +348,10 @@ If you’ve made it this far, I hope that means I’ve helped you in some way �
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;0</span
+          >&nbsp;393</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;00:00</span>
+        <span class="icon-coffee">&nbsp;00:02</span>
       </div><div>
         <span class="icon-eye"></span>
         <span id="busuanzi_container_site_pv"
@@ -358,7 +373,29 @@ If you’ve made it this far, I hope that means I’ve helped you in some way �
             <div class="arrow-up"></div>
           </div><div id="mask" class="hide"></div>
       </div><nav id="mobile-nav">
-  <div class="sidebar-wrap"><div class="sidebar-author">
+  <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">Contents</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#1-getting-acquainted">1. Getting Acquainted</a></li>
+    <li><a href="#2-through-the-thickets">2. Through the Thickets</a></li>
+    <li><a href="#3-riding-the-flow">3. Riding the Flow</a></li>
+    <li><a href="#4-review-and-reflection">4. Review and Reflection</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div></div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img
     data-src="/avatar/avatar.png"
     data-sizes="auto"
@@ -370,7 +407,7 @@ If you’ve made it this far, I hope that means I’ve helped you in some way �
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>Posts</div><div class="sidebar-state-number">0</div>
+    <div>Posts</div><div class="sidebar-state-number">1</div>
   </div>
   <a class="sidebar-state-category" href="/en/categories/" aria-label="sidebar-state-category-link">
     <div>Categories</div>
@@ -417,7 +454,10 @@ If you’ve made it this far, I hope that means I’ve helped you in some way �
       <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
       <div class="sidebar-menu-link">Friend</div>
     </div></div>
-</div></nav>
+</div></div><div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div></nav>
 </div><script
     src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
     integrity="sha384-3gT/vsepWkfz/ff7PpWNUeMzeWoH3cDhm/A8jM7ouoAK0/fP/9bcHHR5kHq2nf&#43;e" crossorigin="anonymous"></script><script
@@ -452,7 +492,7 @@ If you’ve made it this far, I hope that means I’ve helped you in some way �
         window.REIMU_POST = {
           author: "xingxi",
           title: "Hello Everyone",
-          url: "https:\/\/xingxi94.top\/en\/en\/posts\/hello\/",
+          url: "https:\/\/xingxi94.top\/en\/post\/hello\/",
           description: " Introduction to Xingxi\u0026rsquo;s Blog Hi everyone, I\u0026rsquo;m Xingxi. The purpose of this blog is simple — to learn new things, record and reflect until I truly grasp them, and share what I’ve learned so others can join the journey. This post is to set the basic structure for my future articles so …",
           cover: "https:\/\/xingxi94.top\/images\/banner.webp",
         };
