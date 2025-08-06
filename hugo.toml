@@ -14,5 +14,5 @@ hasCJKLanguage = true
 languageName = 'English'
 weight = 2
 languageCode = 'en'
-contentDir = 'content/en/posts'
+contentDir = 'content/en'
 title = "Xingxi's Blog"
