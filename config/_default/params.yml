@@ -370,10 +370,10 @@ giscus:
 ########################################
 
 algolia_search:
-  enable: false
-  appID:
-  apiKey:
-  indexName:
+  enable: true
+  appID: PSENXKJOAD
+  apiKey: d55d4643c46b9eca2917b4dea4f2b7a3
+  indexName: 
   hits:
     per_page: 10
 
@@ -490,7 +490,7 @@ top:
 
 # whether to display the notification when the article is outdated
 outdate:
-  enable: false
+  enable: true
   daysAgo: 180 # The number of days after which the article is considered outdated
   message:
     en: This article was last updated on {time}. Please note that the content may no longer be applicable.
