@@ -137,7 +137,24 @@
 {{- if .Site.Params.animation.enable -}}
   {{- partial "helpers/css.html" (dict "raw" $css.aos "src" (index (partial "helpers/vendorCdn.html" (dict "item" $css.aos "ctx" $site)) 0) "integrity" (index (partial "helpers/vendorCdnIntegrity.html" (dict "item" $css.aos)) 0)) -}}
 {{- end -}}
-
-{{- if .Site.Params.player.aplayer.enable -}}
+<!-- algolia -->
+{{- if and .Site.Params.algolia_search.enable .Site.Params.algolia_search.appID .Site.Params.algolia_search.apiKey -}}
+  {{- partial "helpers/js.html" (dict "raw" $js.algolia "src" (index (partial "helpers/vendorCdn.html" (dict "item" $js.algolia "ctx" $site)) 0) "integrity" (index (partial "helpers/vendorCdnIntegrity.html" (dict "item" $js.algolia)) 0)) -}}
+  {{- partial "helpers/css.html" (dict "raw" $css.algolia "src" (index (partial "helpers/vendorCdn.html" (dict "item" $css.algolia "ctx" $site)) 0) "integrity" (index (partial "helpers/vendorCdnIntegrity.html" (dict "item" $css.algolia)) 0)) -}}
+{{- end -}}
+<!-- aplayer -->
+{{- if and .Site.Params.player.aplayer.enable (not .Site.Params.player.meting.enable) -}}
+  {{- partial "helpers/js.html" (dict "raw" $js.aplayer "src" (index (partial "helpers/vendorCdn.html" (dict "item" $js.aplayer "ctx" $site)) 0) "integrity" (index (partial "helpers/vendorCdnIntegrity.html" (dict "item" $js.aplayer)) 0)) -}}
+{{- end -}}
+<!-- meting -->
+{{- if and .Site.Params.player.meting.enable .Site.Params.player.aplayer.options.fixed -}}
+  {{- partial "helpers/js.html" (dict "raw" $js.meting "src" (index (partial "helpers/vendorCdn.html" (dict "item" $js.meting "ctx" $site)) 0) "integrity" (index (partial "helpers/vendorCdnIntegrity.html" (dict "item" $js.meting)) 0)) -}}
+{{- end -}}
+<!-- live2d -->
+{{- if .Site.Params.live2d.enable -}}
+  {{- partial "helpers/css.html" (dict "raw" $css.live2d
+  "src" (index (partial "helpers/vendorCdn.html" (dict "item" $css.live2d "ctx" $site)) 0) "integrity" (index (partial "helpers/vendorCdnIntegrity.html" (dict "item" $css.live2d)) 0)) -}}
+{{- end -}}
+  {{- if .Site.Params.player.aplayer.enable -}}
   {{- partial "helpers/css.html" (dict "raw" $css.aplayer "src" (index (partial "helpers/vendorCdn.html" (dict "item" $css.aplayer "ctx" $site)) 0) "integrity" (index (partial "helpers/vendorCdnIntegrity.html" (dict "item" $css.aplayer)) 0)) -}}
 {{- end -}}
