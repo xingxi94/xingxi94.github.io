@@ -450,7 +450,7 @@ firework:
 
 # show the copyright below each article
 article_copyright:
-  enable: false
+  enable: true
   content:
     author: true
     link: true
@@ -549,7 +549,7 @@ home_categories:
 
 # Experimental, may have a lot of bugs, open with caution!
 pjax:
-  enable: false
+  enable: true
 
 # Experimental
 # https://github.com/GoogleChromeLabs/quicklink
@@ -570,7 +570,7 @@ service_worker:
 
 # Experimental
 live2d:
-  enable: false
+  enable: true
   position: left # left or right
 
 # Experimental
@@ -592,24 +592,24 @@ player:
     options:
       audio: []
       fixed: true
-      autoplay:
-      loop:
-      order:
-      preload:
-      volume:
-      mutex:
-      listFolded:
-      lrcType:
+      autoplay: false
+      loop: all
+      order: list
+      preload: auto
+      volume: 0.8
+      mutex: true
+      listFolded:false
+      lrcType: 0
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
-    enable: false
+    enable: true
     meting_api: # custom api
     options:
-      id: 2265921590
+      id: 2018587412
       server: netease
       type: playlist
-      auto:
+      auto: true
 
 ########################################
 # pangu.js
