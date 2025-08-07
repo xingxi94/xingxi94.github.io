@@ -598,7 +598,7 @@ player:
       preload: auto
       volume: 0.8
       mutex: true
-      listFolded:false
+      listFolded: false
       lrcType: 0
   meting:
     # https://github.com/metowolf/MetingJS
