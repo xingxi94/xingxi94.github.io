@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xingxi的博客</title>
-    <link>https://xingxi94.top/archives/</link>
+    <link>https://xingxi.mom/archives/</link>
     <description>Recent content from xingxi的博客</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -15,7 +15,7 @@
     <lastBuildDate></lastBuildDate>
     
     
-    <atom:link href="https://xingxi94.top/archives/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://xingxi.mom/archives/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     

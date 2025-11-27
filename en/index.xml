@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xingxi&#39;s Blog</title>
-    <link>https://xingxi94.top/en/</link>
+    <link>https://xingxi.mom/en/</link>
     <description>Recent content from Xingxi&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Mon, 21 Jul 2025 19:22:00 +0800</lastBuildDate>
     
     
-    <atom:link href="https://xingxi94.top/en/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://xingxi.mom/en/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Hello Everyone</title>
-      <link>https://xingxi94.top/en/post/hello/</link>
+      <link>https://xingxi.mom/en/post/hello/</link>
       <pubDate>Mon, 21 Jul 2025 19:21:00 &#43;0800</pubDate>
       <author>xxx@example.com (xingxi)</author>
-      <guid>https://xingxi94.top/en/post/hello/</guid>
+      <guid>https://xingxi.mom/en/post/hello/</guid>
       <description>
         <![CDATA[<h1>Hello Everyone</h1><p>Author: xingxi(xxx@example.com)</p>
         
@@ -41,7 +41,7 @@ Hi everyone, I&rsquo;m Xingxi. The purpose of this blog is simple — to learn n
 1. Getting Acquainted
 </h2><p>Most of what I’ll be sharing here comes from my own journey — from being a complete beginner to someone who may not be an expert but is no longer clueless. I’ll explain how I first got into each topic, why it drew my attention, and how you can decide if it’s something you want to dive into too.</p>
         
-        <hr><p>Published on 2025-07-21 at <a href='https://xingxi94.top/'>Xingxi's Blog</a>, last modified on 2025-07-21</p>]]>
+        <hr><p>Published on 2025-07-21 at <a href='https://xingxi.mom/'>Xingxi's Blog</a>, last modified on 2025-07-21</p>]]>
       </description>
       
     </item>

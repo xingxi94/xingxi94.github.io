@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xingxi的博客</title>
-    <link>https://xingxi94.top/</link>
+    <link>https://xingxi.mom/</link>
     <description>Recent content from xingxi的博客</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Mon, 21 Jul 2025 19:22:00 +0800</lastBuildDate>
     
     
-    <atom:link href="https://xingxi94.top/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://xingxi.mom/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>大家好</title>
-      <link>https://xingxi94.top/post/hello/</link>
+      <link>https://xingxi.mom/post/hello/</link>
       <pubDate>Mon, 21 Jul 2025 19:21:00 &#43;0800</pubDate>
       <author>xxx@example.com (xingxi)</author>
-      <guid>https://xingxi94.top/post/hello/</guid>
+      <guid>https://xingxi.mom/post/hello/</guid>
       <description>
         <![CDATA[<h1>大家好</h1><p>作者：xingxi（xxx@example.com）</p>
         
@@ -41,7 +41,7 @@ xingxi的博客简介
 1.认识了解
 </h2><p>因为我在这里面分享的大多数都将是我从一个菜鸟小白到虽不致高手但不那么新手的过程，我会一一叙述我初识其的原因和途径，以供大家参考，确定是否具有这方面的需求和兴趣爱好再来阅览</p>
         
-        <hr><p>本文2025-07-21首发于<a href='https://xingxi94.top/'>xingxi的博客</a>，最后修改于2025-07-21</p>]]>
+        <hr><p>本文2025-07-21首发于<a href='https://xingxi.mom/'>xingxi的博客</a>，最后修改于2025-07-21</p>]]>
       </description>
       
     </item>
