@@ -450,7 +450,7 @@ firework:
 
 # show the copyright below each article
 article_copyright:
-  enable: true
+  enable: false
   content:
     author: true
     link: true
@@ -588,7 +588,7 @@ player:
   # if you enable meting, you must enable aplayer first
   aplayer:
     # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: true
     options:
       audio: []
       fixed: true
